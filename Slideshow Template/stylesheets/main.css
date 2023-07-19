@@ -1,0 +1,96 @@
+/*Setting overflow of carousel to hidden*/
+.carousel {
+    overflow:hidden
+}
+
+/*Positioning the images to have the chosen position and setting width/height, also setting to cover so that it fills the screen */
+.carousel_image {
+    object-fit: cover;
+    object-position: -350px 0px;
+    width: 2160px;
+    height: 3840px;
+}
+
+/*Positioning the images to have the chosen position and setting width/height, also setting to cover so that it fills the screen */
+.carousel_image_two {
+    object-fit: cover;
+    object-position: -75px 0px;
+    width: 2160px;
+    height: 3840px;
+}
+
+/* Setting font size, max width and height for container position absolute to display over top the primary image and setting background color as well as top margin*/
+.carousel_item_info {
+    font-size: 8vw;
+    max-height: 45%;
+    max-width: 80%;
+    width: 80%;
+    height: 30vw;
+    position: absolute;
+    background-color: darkgreen;
+    top: 13%;
+}
+
+/* Setting font size, max width and height for container position absolute to display over top the primary image and setting background color as well as top margin */
+.carousel_item_info_two {
+    font-size: 8vw;
+    max-height: 45%;
+    max-width: 80%;
+    width: 80%;
+    height: 30vw;
+    position: absolute;
+    background-color: darkgreen;
+    top: 13%;
+}
+
+/* Absolute to display over image position, flex display row to show in a row, setting margins/padding and max width/height*/
+.carousel_bottom {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: 0%;
+    left: 2%;
+    max-height: 22%;
+    max-width: 80%;
+    width: 80%;
+    height: 5%;
+}
+
+/* Setting font size and family for item info text with position absolute to appear over image, then setting margins and font color*/
+.carousel_item_info_text {
+    font-size: 9.2vw;
+    font-family: Times New Roman;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    color: white;
+}
+
+/* Setting font size and family for item info text with position absolute to appear over image, then setting margins and font color*/
+.carousel_item_info_text_bottom {
+    font-size: 2vw;
+    font-family: Times New Roman;
+    letter-spacing: 8px;
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    color: white;
+}
+
+/* Setting font size and family for item info text with position absolute to appear over image, then setting margins and font color*/
+.carousel_item_info_text_bottom_two {
+    font-size: 4.6vw;
+    font-family: Times New Roman;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+}
+
+/* Setting margin and width/height of logo image*/
+.logo {
+    left: 5%;
+    width: 7vw;
+    height: 7vw;
+}

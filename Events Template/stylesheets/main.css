@@ -1,0 +1,65 @@
+/* Setting margins/padding to 0 and setting width/height + background color for the main body and html */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+/* Setting margins/padding to 0, background color black and width/height for main div within the body */
+#main {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+/* Setting color, font size, padding left and top for the Events title */
+.events-title {
+    color: aliceblue;
+    font-size: 17vw;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+/* Setting font size, font family, color and font weight for activities */
+.event-activities-type {
+    font-size: 4vw;
+    font-family: sans-serif;
+    color: bisque;
+    font-weight: bold;
+}
+
+/* Setting font size and color for the event date time*/
+.event-datetime-text {
+    font-size: 4vw;
+    color: aliceblue;
+}
+
+/* Setting font size, color and background color for location container and location text*/
+.event-location-container {
+    font-size: 5vw;
+    background-color: aqua;
+    color: black;
+}
+
+/* Setting font size for event title */
+.event-title {
+    font-size: 3vw;
+}
+
+/* Setting font size, color, and margins for the event description text */
+.event-description-text {
+    font-size: 2vw;
+    color: white;
+    margin-right: 25vw;
+    margin-left: 25vw;
+    
+}
+
+/* Setting color for a span pipe used to separate the different times of events */
+.pipe {
+    color: bisque;
+}

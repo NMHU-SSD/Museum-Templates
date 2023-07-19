@@ -1,0 +1,6 @@
+/* Setting fit to contain to show full image in space and setting viewport width/height */
+.carouselImg {
+    object-fit: contain;
+    width: 100vw;
+    height: 100vh;
+}
