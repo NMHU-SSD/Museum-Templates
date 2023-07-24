@@ -1,7 +1,6 @@
 # DCA PiSignage Templates
-New Mexico Department of Cultural Affairs
-
-Pi Signage Templates and documentation
+Pi Signage Templates and documentation for NM Museum of Natural History & Science
 
 ## Internship
 Student: [Dion Boyer](https://github.com/Taunchi)
+Client: New Mexico Department of Cultural Affairs
